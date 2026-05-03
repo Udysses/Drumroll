@@ -241,18 +241,41 @@ earnings-sage/
 
 ---
 
-## Contributing
+## Usage Note
+**This repository is for portfolio display and review only.** 
+The code is not licensed for public use, distribution, or modification. If you are interested in using this server for a project or contributing to its development, please see the **Copyright & Contributions** section below.
 
-Pull requests are welcome. Open an issue first for larger changes.
+---
+
+## Setup (For Authorized Collaborators)
 
 ```bash
-pip install ruff
-ruff check analyze.py
-ruff format analyze.py
+# 1. Accessing the code
+# Note: Cloning is permitted only for authorized contributors.
+cd market-intel-mcp
+
+# 2. Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Configure credentials
+cp .env.example .env
+# Edit .env and fill in your API keys
 ```
 
 ---
 
-## License
+## Copyright & Contributions
 
-MIT
+**© 2026 Udysses. All rights reserved.**
+
+I am not currently accepting unsolicited Pull Requests. To maintain the integrity of this project:
+
+1. **Viewing only:** You are welcome to explore the code here on GitHub.
+2. **No Unauthorized Redistribution:** Use, reproduction, or distribution of this code without express written permission is prohibited.
+3. **How to contribute:** If you have an idea for a feature or a bug fix, please **send me a Direct Message (DM)** or open a **GitHub Issue** first. 
+4. **Pull Requests:** PRs are restricted to approved collaborators. If we agree on a change, I will add you as a collaborator to allow your submission.
+
