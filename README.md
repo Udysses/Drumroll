@@ -1,4 +1,4 @@
-# earnings-sage
+# Drumroll
 
 A command-line tool that feeds earnings call PDFs to Claude and returns structured, analyst-quality output.
 
